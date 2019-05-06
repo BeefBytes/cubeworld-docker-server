@@ -1,5 +1,5 @@
 # CubeWorld Docker Server
-This docker setup installs CubeWorld server software cuwo.
+This docker setup installs CubeWorld server software [cuwo](https://github.com/matpow2/cuwo).
 
 ## Requirements
 - Valid picroma account
