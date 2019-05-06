@@ -3,7 +3,7 @@ version: '3'
 services:
 
   cw:
-    image: cuwo
+    image: beefbytes/cubeworld
     stdin_open: true
     tty: true
     volumes:
@@ -11,3 +11,5 @@ services:
       - ${DATA_DIR}/logs:/mnt/cuwo/logs
       - ${DATA_DIR}/data:/mnt/cuwo/data
       - ${DATA_DIR}/save:/mnt/cuwo/save
+    ports:
+      - 1234:1234
