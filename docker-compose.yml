@@ -4,6 +4,7 @@ services:
 
   cw:
     image: beefbytes/cubeworld
+    container_name: cubeworld_server
     stdin_open: true
     tty: true
     volumes:
