@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  cw:
+    image: cuwo
+    stdin_open: true
+    tty: true
+    volumes:
+      - ${DATA_DIR}/config:/mnt/cuwo/config
+      - ${DATA_DIR}/logs:/mnt/cuwo/logs
+      - ${DATA_DIR}/data:/mnt/cuwo/data
+      - ${DATA_DIR}/save:/mnt/cuwo/save
